@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+    
+}
+
+body {
+    background-color: black;
+    background: url("../img/updated.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+.navbar {
+    margin-bottom: 0!important;
+}
+
+
+
+p {
+    font-family: 'Cinzel Decorative', monospace;
+    color: white;
+    font-size: 100%;
+    text-align: right;
+}
+
+br {
+    line-height: 250%;
+}
+
+#name {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, -1px 0 black;
+    font-weight: bolder;
+    font-size: 250%;
+    font-family: "Cormorant Upright";
+}
+
+
+
+#content {
+    background-color:rgba(0,0,0,0.4);
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px #000;
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    top: 50%;
+    margin: -100px 0 0 0px;
+}
+
+@media only screen and (max-width: 1050px) {
+    body {
+        background-color: black;
+        background: url("../img/smallupdate.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    #content {
+        background-color:rgba(0,0,0,0.4);
+        border-radius: 2px;
+        position: absolute;
+        width: 100%;
+        z-index: 15;
+        top: 58%;
+        margin: -100px 0 0 0px;
+    }
+    
+    body {
+        background-color: black;
+        background: url("../img/smallest.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}

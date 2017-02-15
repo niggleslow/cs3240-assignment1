@@ -1,0 +1,105 @@
+html {
+    height: 100%;   
+    background-color: black;
+}
+
+.navbar {
+    margin-bottom: 0!important;
+}
+
+body {
+    background-color: black;
+    bottom: 70px;
+}
+
+p {
+    font-family: 'Cormorant Upright', monospace;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+}
+
+.photos {
+    background-color: black;
+}
+
+.photos .preamble {
+    padding: 0px 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.preamble {
+    margin-top: 3%;
+}
+
+.photos .preamble p {
+    padding-bottom: 15px;
+}
+
+.photos .grid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    overflow: hidden;
+    width: 95%;
+    position:relative;
+}
+
+.photo {
+    display: inline-flex;
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: azure
+}
+
+.photo:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+}
+
+#img1 {
+    background-image: url("../img/comp1.png");
+}
+
+#img2 {
+    background-image: url("../img/comp2.png");
+}
+
+#img3 {
+    background-image: url("../img/comp3.png");
+}
+
+#img4 {
+    background-image: url("../img/comp4.png");
+}
+
+@media screen and (max-width: 600px) {
+    .photo {
+        margin: 10px;
+        height: 200px;
+        width: 200px
+    }
+}

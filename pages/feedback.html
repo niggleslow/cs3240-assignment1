@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1 user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nicholas Low: Student, Programmer, Builder</title>
+
+        <!-- Own CSS -->
+        <link rel="stylesheet" href="../css/feedback.css">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled Javascript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!-- Font families -->
+        <link href='//fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+        <link href='//fonts.googleapis.com/css?family=Cormorant Upright' rel='stylesheet'>
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Feedback form JS -->
+        <script src="../js/app.js"></script>
+        
+        <!-- Icon -->
+        <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
+        
+    </head>
+    
+    <body>
+        <!-- NAVIGATION BAR-->
+        <nav class="navbar navbar-inverse" role="navigation" style="border-radius:0px;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="font-family: 'Cinzel Decorative'; color: white;">Nicholas Low</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-right" id="myNavbar">
+                    <ul class="nav navbar-nav" style="font-weight: bold; font-family: Cormorant Upright;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="builds.html">Past Builds</a></li>
+                        <li class="active"><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <h1 style="font-family: Cormorant Upright; font-size: 24px; text-align: center;"> Please provide your feedback here </h1>
+        
+        <hr>
+        <div class="container-fluid">
+            <form id="ajax-contact" method="post" action="mailer.php">
+                <div class="field">
+                    <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="field">
+                    <button id="test" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+        
+        <div id="form-messages"></div>
+    </body>
+</html>
