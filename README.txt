@@ -30,7 +30,7 @@ Satisfaction of criteria
 ------------------------
 >>> Bootstrap <<<
 
-i. 	Grid system : 
+i. Grid system : 
 Example of usage "about me" page uses "container-fluid", "row", and "col-lg","col-md","col-sm","col-xs" respectively to structure page in a grid system.
 
 ii. Responsive design:
@@ -39,7 +39,7 @@ Webpages are able to scale and accomodate accordingly for different widths of sc
 iii. Base CSS:
 See accompanying CSS files for each .html file used.
 
-iv.	Any of the components:
+iv. Any of the components:
 Used navbar component.
 
 v. JavaScript category item:
@@ -51,3 +51,12 @@ Used in feedback.html
 
 ii. jQuery Effects:
 See "about me" page where the respective categories uses the show and hide jquery effects upon click.
+
+References Used
+---------------
+
+1. http://blog.teamtreehouse.com/create-ajax-contact-form (jQuery Form)
+2. https://css-tricks.com/ (Useful CSS snippets)
+3. https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp (Grid system)
+4. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries (Media Queries)
+5. https://www.w3schools.com/jquery/jquery_hide_show.asp (Hide and show jQuery effects)

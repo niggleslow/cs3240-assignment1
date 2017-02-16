@@ -30,13 +30,11 @@ br {
 
 #name {
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, -1px 0 black;
+    text-shadow: 2px 2px 4px black;
     font-weight: bolder;
     font-size: 250%;
     font-family: "Cormorant Upright";
 }
-
-
 
 #content {
     background-color:rgba(0,0,0,0.4);
@@ -47,6 +45,7 @@ br {
     z-index: 15;
     top: 50%;
     margin: -100px 0 0 0px;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
 
 @media only screen and (max-width: 1050px) {
